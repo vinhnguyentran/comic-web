@@ -1,5 +1,6 @@
 {
-  "name": "comic",
+  "homepage": "https://vinhnguyentran.github.io/comic-web/",
+  "name": "comic-web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
