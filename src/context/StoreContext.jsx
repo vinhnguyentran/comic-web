@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { food_list } from '../assets/assets';
+import { list_comic } from '../assets/assets';
 import axios from "axios";
 
 export const StoreContext = createContext(null)
@@ -24,6 +24,11 @@ const StoreConTextProvider = (props) => {
         style: 'currency',
         currency: 'VND',
     })
+    const viewer = (number) => {
+        return Intl.NumberFormat('vn').format(
+            number,
+        )
+    }
     const addToCart = (itemId) => {
 
         if (!cartItem[itemId]) {
@@ -90,7 +95,6 @@ const StoreConTextProvider = (props) => {
     }, [])
 
     const contextValue = {
-        food_list,
         cartItem,
         setCartItem,
         addToCart,
@@ -103,6 +107,8 @@ const StoreConTextProvider = (props) => {
         setToken,
         orderData,
         setOrderData,
+        list_comic,
+        viewer
     }
     return (
         <StoreContext.Provider value={contextValue}>

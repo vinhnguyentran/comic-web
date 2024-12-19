@@ -14,10 +14,10 @@
     display: flex;
     list-style: none;
     gap: 20px;
-    color: #49557e;
+    color: hsl(48, 100%, 67%);
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar-right{
@@ -43,7 +43,7 @@
 
 .navbar .active{
     padding-bottom: 2px;
-    border-bottom: 2px solid #49557e;
+    border-bottom: 2px solid hsl(48, 100%, 67%);;
 }
 
 .navbar li{

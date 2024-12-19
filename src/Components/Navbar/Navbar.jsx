@@ -26,24 +26,24 @@ const Navbar = ({ setShowLogin }) => {
 
   return (
     <div className='navbar'>
-      <Link to='/web-food-FE/'><img src={assets.logo} alt='' className="logo" onClick={() => checkUrl()} /></Link>
+      <Link to='/'><img src={assets.logo} alt='' className="logo" onClick={() => checkUrl()} /></Link>
       <ul className='navbar-menu'>
         <Link style={{ display: endWith }} to='/' onClick={() => setMenu('home')} className={menu === 'home' ? 'active' : ''}>Home</Link>
-        <a style={{ display: endWith }} href='#explore-menu' onClick={() => setMenu('menu')} className={menu === 'menu' ? 'active' : ''}>menu</a>
-        <a style={{ display: endWith }} href='#app-download' onClick={() => setMenu('mobile-app')} className={menu === 'mobile-app' ? 'active' : ''}>mobile app</a>
-        <a style={{ display: endWith }} href='#footer' onClick={() => setMenu('contact-us')} className={menu === 'contact-us' ? 'active' : ''}>contact us</a>
+        <Link style={{ display: endWith }} to='/list' onClick={() => setMenu('list')} className={menu === 'list' ? 'active' : ''}>Danh Sách</Link>
+        <Link style={{ display: endWith }} to='/type' onClick={() => setMenu('type')} className={menu === 'type' ? 'active' : ''}>Thể Loại</Link>
+        <Link style={{ display: endWith }} to='/chapter' onClick={() => setMenu('chapter')} className={menu === 'chapter' ? 'active' : ''}>Chương</Link>
       </ul>
       <div className='navbar-right'>
         {/* <img className='search' style={{ display: endWith }} src={assets.search} alt="" /> */}
-        {token ? <div className='navbar-search-icon'>
-          <Link to='/web-food-FE/cart' onClick={() => checkUrl()}><img className='cart-icon' src={assets.carts} alt="" /></Link>
+        {/* {token ? <div className='navbar-search-icon'>
+          <Link to='/cart' onClick={() => checkUrl()}><img className='cart-icon' src={assets.carts} alt="" /></Link>
           <div className={getTotalCartAmount() === 0 ? '' : 'dot'}></div>
-        </div> : ''}
+        </div> : ''} */}
         {!token ? <button onClick={() => setShowLogin(true)}>Signin</button> :
           <div className='navbar-profile'>
             <img className='avatar' src={assets.profile_icon} alt='' />
             <ul className="nav-profile-dropdown">
-              <li><Link to='/web-food-FE/order' onClick={() => checkUrl()}><img src={assets.bag_icon} alt='' />Order</Link></li>
+              <li><Link to='/order' onClick={() => checkUrl()}><img src={assets.bag_icon} alt='' />Order</Link></li>
               <hr />
               <li onClick={() => logout()}><img src={assets.logout_icon} alt='' />Logout</li>
             </ul>

@@ -61,6 +61,12 @@ import zalopay_icon from './zalopay_icon.png';
 import vnpay_icon from './vnpay_icon.png';
 import bank_icon from './bank_icon.png';
 import delete_icon from './delete_icon.png';
+import truyen1 from './truyen1.png';
+import truyen2 from './truyen2.png';
+import truyen3 from './truyen3.png';
+import truyen4 from './truyen4.png';
+import truyen5 from './truyen5.png';
+
 export const assets = {
     logo,
     sale,
@@ -94,9 +100,214 @@ export const assets = {
     delete_icon
 }
 
-export const menu_list = [
+export const list_comic = [
     {
-        menu_name: 'Súp',
+        _id: '1',
+        name: 'Vừa mới bắt đầu đã có tài khoản vương giả',
+        chap: '200',
+        category: 'truyen tranh',
+        type: 'Hiện đại',
+        chapteId: '1',
+        rating: 7.9,
+        image: truyen1,
+        view: 212323,
+    },
+    {
+        _id: '2',
+        name: 'Ta là tà đế',
+        chap: '1200',
+        category: 'truyen tranh',
+        type: 'Xuyên không',
+        chapteId: '2',
+        rating: 7.9,
+        image: truyen2,
+        view: 122323,
+    },
+    {
+        _id: '3',
+        name: 'Ta vô địch sau khi xuống núi',
+        chap: '45',
+        category: 'truyen tranh',
+        type: 'Tu tiên',
+        chapteId: '3',
+        rating: 7.9,
+        image: truyen3,
+        view: 102022,
+    },
+    {
+        _id: '4',
+        name: 'Ta là ma hoàng',
+        chap: '345',
+        category: 'truyen tranh',
+        type: 'Tu tiên',
+        chapteId: '4',
+        rating: 7.9,
+        image: truyen4,
+        view: 454321,
+    },
+    {
+        _id: '5',
+        name: 'Mạt thế gián lâm, ta thành người mạnh nhất thế giới',
+        chap: '300',
+        category: 'truyen tranh',
+        type: 'Mạt thế',
+        chapteId: '5',
+        rating: 7.9,
+        image: truyen5,
+        view: 234543,
+    },
+    {
+        _id: '6',
+        name: 'Mạt thế gián lâm, ta thành người mạnh nhất thế giới',
+        chap: '300',
+        category: 'truyen tranh',
+        type: 'Mạt thế',
+        chapteId: '5',
+        rating: 7.9,
+        image: truyen5,
+        view: 234543,
+    },
+    {
+        _id: '7',
+        name: 'Mạt thế gián lâm, ta thành người mạnh nhất thế giới',
+        chap: '300',
+        category: 'truyen tranh',
+        type: 'Mạt thế',
+        chapteId: '5',
+        rating: 7.9,
+        image: truyen5,
+        view: 234543,
+    },
+    {
+        _id: '8',
+        name: 'Mạt thế gián lâm, ta thành người mạnh nhất thế giới',
+        chap: '300',
+        category: 'truyen tranh',
+        type: 'Mạt thế',
+        chapteId: '5',
+        rating: 7.9,
+        image: truyen5,
+        view: 234543,
+    },
+    {
+        _id: '9',
+        name: 'Mạt thế gián lâm, ta thành người mạnh nhất thế giới',
+        chap: '300',
+        category: 'truyen tranh',
+        type: 'Mạt thế',
+        chapteId: '5',
+        rating: 7.9,
+        image: truyen5,
+        view: 234543,
+    },
+    {
+        _id: '10',
+        name: 'Mạt thế gián lâm, ta thành người mạnh nhất thế giới',
+        chap: '300',
+        category: 'truyen tranh',
+        type: 'Mạt thế',
+        chapteId: '5',
+        rating: 7.9,
+        image: truyen5,
+        view: 234543,
+    },
+    {
+        _id: '11',
+        name: 'Mạt thế gián lâm, ta thành người mạnh nhất thế giới',
+        chap: '300',
+        category: 'truyen tranh',
+        type: 'Mạt thế',
+        chapteId: '5',
+        rating: 7.9,
+        image: truyen5,
+        view: 234543,
+    }
+]
+
+export const category = [
+    {
+        _id: '1',
+        category: 'Truyện tranh',
+        total: 230,
+    },
+    {
+        _id: '2',
+        category: 'Truyện chữ',
+        total: 210,
+    },
+    {
+        _id: '3',
+        category: 'Truyện audio',
+        total: 260,
+    }
+]
+
+export const type = [
+    {
+        _id: '1',
+        name: 'Tu tiên',
+        total: 20,
+    },
+    {
+        _id: '2',
+        name: 'Mạt thế',
+        total: 20,
+    },
+    {
+        _id: '3',
+        name: 'Kiếm hiệp',
+        total: 20,
+    },
+    {
+        _id: '4',
+        name: 'Xuyên không',
+        total: 20,
+    },
+    {
+        _id: '5',
+        name: 'Trùng sinh',
+        total: 20,
+    },
+    {
+        _id: '6',
+        name: 'Đô thị',
+        total: 20,
+    },
+    {
+        _id: '7',
+        name: 'Hệ thống',
+        total: 20,
+    },
+    {
+        _id: '8',
+        name: 'Huyền Huyển',
+        total: 20,
+    },
+    {
+        _id: '9',
+        name: 'Hệ thống',
+        total: 20,
+    },
+    {
+        _id: '10',
+        name: 'Quân Sự',
+        total: 20,
+    },
+    {
+        _id: '11',
+        name: 'Lịch sử',
+        total: 20,
+    },
+    {
+        _id: '12',
+        name: 'Đam mỹ',
+        total: 20,
+    },
+]
+
+export const comic_list = [
+    {
+        name: 'Súp',
         sub_name: 'sup',
         menu_image: menu_sup
     },
