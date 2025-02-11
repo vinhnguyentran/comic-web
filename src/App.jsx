@@ -18,10 +18,10 @@ const App = () => {
       <div className='app'>
         <Navbar setShowLogin={setShowLogin} />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/cart' element={token ? <Cart /> : <h1>You are not logged in</h1>} />
-          <Route path='/place' element={token ? <PlaceOrder /> : <h1>You are not logged in</h1>} />
-          <Route path='/order' element={token ? <PlaceOrder /> : <h1>You are not logged in</h1>}/>
+          <Route path='/comic-web/' element={<Home />} />
+          <Route path='/comic-web/cart' element={token ? <Cart /> : <h1>You are not logged in</h1>} />
+          <Route path='/comic-web/place' element={token ? <PlaceOrder /> : <h1>You are not logged in</h1>} />
+          <Route path='/comic-web/order' element={token ? <PlaceOrder /> : <h1>You are not logged in</h1>}/>
           {/* <Route path='/payment' element={token ? <Payment/> : <h1>You are not logged in</h1>} /> */}
           <Route path='/readview' element={<ReadView/>} />
         </Routes>
