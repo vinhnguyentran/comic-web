@@ -1,12 +1,15 @@
 import { createContext, useEffect, useState } from "react";
 import { list_comic } from '../assets/assets';
 import axios from "axios";
+import { use } from "react";
 
 export const StoreContext = createContext(null)
 
 const StoreConTextProvider = (props) => {
     const [cartItem, setCartItem] = useState({})
     const [token, setToken] = useState('')
+    const [chapChange, setChapChange] = useState('1')
+    const [chap, setChap] = useState('chap1')
     // const [food_list, setFood_List] = useState([])
     const [orderData, setOrderData] = useState({
         first_name: '',
@@ -29,6 +32,7 @@ const StoreConTextProvider = (props) => {
             number,
         )
     }
+    
     const addToCart = (itemId) => {
 
         if (!cartItem[itemId]) {
@@ -108,7 +112,11 @@ const StoreConTextProvider = (props) => {
         orderData,
         setOrderData,
         list_comic,
-        viewer
+        viewer,
+        chapChange,
+        setChapChange,
+        chap, 
+        setChap,
     }
     return (
         <StoreContext.Provider value={contextValue}>

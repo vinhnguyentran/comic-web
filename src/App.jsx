@@ -6,8 +6,9 @@ import Cart from './Pages/Cart/Cart'
 import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
 import Footer from './Components/Footer/Footer'
 import LoginPopup from './Components/LoginPopup/LoginPopup'
-import Payment from './Pages/Payment/Payment'
+// import Payment from './Pages/Payment/Payment'
 import { StoreContext } from './context/StoreContext'
+import ReadView from './Pages/ReadView/ReadView'
 const App = () => {
   const [showLogin, setShowLogin] = useState(false)
   const {token} = useContext(StoreContext)
@@ -21,7 +22,8 @@ const App = () => {
           <Route path='/cart' element={token ? <Cart /> : <h1>You are not logged in</h1>} />
           <Route path='/place' element={token ? <PlaceOrder /> : <h1>You are not logged in</h1>} />
           <Route path='/order' element={token ? <PlaceOrder /> : <h1>You are not logged in</h1>}/>
-          <Route path='/payment' element={token ? <Payment/> : <h1>You are not logged in</h1>} />
+          {/* <Route path='/payment' element={token ? <Payment/> : <h1>You are not logged in</h1>} /> */}
+          <Route path='/readview' element={<ReadView/>} />
         </Routes>
       </div>
       <Footer/>

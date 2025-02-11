@@ -18,7 +18,8 @@
 }
 
 .comic-item-info p{
-    margin: 8px 0px;
+    margin: 3px 0px;
+    
 }
 
 .comic-item-name-rating{
@@ -72,4 +73,8 @@
 }
 .comic-item-counter img{
     width: 30px;
+}
+
+.comic-item:hover {
+    box-shadow: 15px 15px 15px;
 }

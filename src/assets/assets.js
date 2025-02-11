@@ -10,39 +10,6 @@ import menu_roll from './menu_roll.png';
 import menu_noodle from './menu_noodle.png';
 import menu_stew from './menu_stew.png';
 import menu_deserts from './menu_1.png'
-import food_1 from './food_1.png';
-import food_2 from './food_2.png';
-import food_3 from './food_3.png';
-import food_4 from './food_4.png';
-import food_5 from './food_5.png';
-import food_6 from './food_6.png';
-import food_7 from './food_7.png';
-import food_8 from './food_8.png';
-import food_9 from './food_9.png';
-import food_10 from './food_10.png';
-import food_11 from './food_11.png';
-import food_12 from './food_12.png';
-import food_13 from './food_13.png';
-import food_14 from './food_14.png';
-import food_15 from './food_15.png';
-import food_16 from './food_16.png';
-import food_17 from './food_17.png';
-import food_18 from './food_18.png';
-import food_19 from './food_19.png';
-import food_20 from './food_20.png';
-import food_21 from './food_21.png';
-import food_22 from './food_22.png';
-import food_23 from './food_23.png';
-import food_24 from './food_24.png';
-import food_25 from './food_25.png';
-import food_26 from './food_26.png';
-import food_27 from './food_27.png';
-import food_28 from './food_28.png';
-import food_29 from './food_29.png';
-import food_30 from './food_30.png';
-import food_31 from './food_31.png';
-import food_32 from './food_32.png';
-import food_33 from './food_33.png';
 import rating_star from './rating_star.png';
 import add_icon_white from './add_icon_white.png';
 import add_icon_green from './add_icon_green.png';
@@ -66,6 +33,18 @@ import truyen2 from './truyen2.png';
 import truyen3 from './truyen3.png';
 import truyen4 from './truyen4.png';
 import truyen5 from './truyen5.png';
+import comic1_0 from './comic1/chap1/image0.png';
+import comic1_1 from './comic1/chap1/image1.png';
+import comic1_2 from './comic1/chap1/image2.png';
+import comic1_3 from './comic1/chap1/image3.png';
+import comic1_4 from './comic1/chap1/image4.png';
+import comic1_5 from './comic1/chap1/image5.png';
+import comic1_6 from './comic1/chap1/image6.png';
+import comic1_7 from './comic1/chap1/image7.png';
+import comic1_8 from './comic1/chap1/image8.png';
+import comic1_9 from './comic1/chap1/image9.png';
+import standee_default from './standee/standee-default.png';
+
 
 export const assets = {
     logo,
@@ -97,9 +76,54 @@ export const assets = {
     zalopay_icon,
     vnpay_icon,
     bank_icon,
-    delete_icon
+    delete_icon,
+    standee_default
 }
 
+
+
+export const list_cate = [
+    {
+        _id: '1',
+        name: 'Tu Tiên'
+    },
+    {
+        _id: '2',
+        name: 'Đô Thị'
+    },
+    {
+        _id: '3',
+        name: 'Xuyên Không'
+    },
+    {
+        _id: '4',
+        name: 'Huyền Huyển'
+    },
+    {
+        _id: '5',
+        name: 'Mạt thế'
+    },
+    {
+        _id: '6',
+        name: 'Trùng Sinh'
+    },
+    {
+        _id: '7',
+        name: 'Cổ Đại'
+    },
+    {
+        _id: '8',
+        name: 'Đam Mỹ'
+    },
+    {
+        _id: '9',
+        name: 'Ngôn Tình'
+    },
+    {
+        _id: '10',
+        name: 'Romance'
+    },
+]
 export const list_comic = [
     {
         _id: '1',
@@ -111,6 +135,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen1,
         view: 212323,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '2',
@@ -122,6 +286,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen2,
         view: 122323,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '3',
@@ -133,6 +437,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen3,
         view: 102022,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '4',
@@ -144,6 +588,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen4,
         view: 454321,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '5',
@@ -155,6 +739,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen5,
         view: 234543,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '6',
@@ -166,6 +890,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen5,
         view: 234543,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '7',
@@ -177,6 +1041,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen5,
         view: 234543,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '8',
@@ -188,6 +1192,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen5,
         view: 234543,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '9',
@@ -199,6 +1343,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen5,
         view: 234543,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '10',
@@ -210,6 +1494,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen5,
         view: 234543,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap0',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     },
     {
         _id: '11',
@@ -221,6 +1645,146 @@ export const list_comic = [
         rating: 7.9,
         image: truyen5,
         view: 234543,
+        comic: [
+            {
+                _id: '0',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '1',
+                chap: 'chap1',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+            {
+                _id: '2',
+                chap: 'chap2',
+                images: [
+                    {
+                        _id: '0',
+                        image: comic1_0,
+                    },
+                    {
+                        _id: '1',
+                        image: comic1_1,
+                    },
+                    {
+                        _id: '2',
+                        image: comic1_2,
+                    },
+                    {
+                        _id: '3',
+                        image: comic1_3,
+                    },
+                    {
+                        _id: '4',
+                        image: comic1_4,
+                    },
+                    {
+                        _id: '5',
+                        image: comic1_5,
+                    },
+                    {
+                        _id: '6',
+                        image: comic1_6,
+                    },
+                    {
+                        _id: '7',
+                        image: comic1_7,
+                    },
+                    {
+                        _id: '8',
+                        image: comic1_8,
+                    },
+                    {
+                        _id: '9',
+                        image: comic1_9,
+                    },
+                ]
+            },
+        ]
     }
 ]
 
@@ -349,269 +1913,3 @@ export const comic_list = [
     
 ]
 
-export const food_list = [
-    {
-        _id: '1',
-        name: 'Rau muống xào tỏi',
-        image: food_1,
-        price: 12000,
-        description: '',
-        category: 'salads'
-    },
-    {
-        _id: '2',
-        name: 'Bánh sanwich',
-        image: food_2,
-        price: 18000,
-        description: '',
-        category: 'deserts'
-    },
-    {
-        _id: '3',
-        name: 'Mì xào hải sản',
-        image: food_3,
-        price: 22000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '4',
-        name: 'Bún xào thập cẩm',
-        image: food_4,
-        price: 80000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '5',
-        name: 'Bún xào măn',
-        image: food_5,
-        price: 40000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '6',
-        name: 'Bún xào chay',
-        image: food_6,
-        price: 29000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '7',
-        name: 'Bánh kem socola',
-        image: food_7,
-        price: 120000,
-        description: '',
-        category: 'deserts'
-    },
-    {
-        _id: '8',
-        name: 'Bánh kem dâu sửa',
-        image: food_8,
-        price: 120000,
-        description: '',
-        category: 'deserts'
-    },
-    {
-        _id: '9',
-        name: 'Bánh kem dâu',
-        image: food_9,
-        price: 600000,
-        description: '',
-        category: 'deserts'
-    },
-    {
-        _id: '10',
-        name: 'Bánh kem cafe',
-        image: food_10,
-        price: 120000,
-        description: '',
-        category: 'deserts'
-    },
-    {
-        _id: '11',
-        name: 'Cánh gà chiên giòn',
-        image: food_11,
-        price: 170000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '12',
-        name: 'Cánh gà chiên nước mắm',
-        image: food_12,
-        price: 150000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '13',
-        name: 'Cơm chiên dương châu',
-        image: food_13,
-        price: 32000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '14',
-        name: 'Mì Ý',
-        image: food_14,
-        price: 230000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '15',
-        name: 'Mì hấp nghêu',
-        image: food_15,
-        price: 120000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '16',
-        name: 'Súp hải sản',
-        image: food_16,
-        price: 43000,
-        description: '',
-        category: 'sup'
-    },
-    {
-        _id: '17',
-        name: 'Súp đậu nành',
-        image: food_17,
-        price: 22000,
-        description: '',
-        category: 'sup'
-    },
-    {
-        _id: '18',
-        name: 'Súp rau củ',
-        image: food_18,
-        price: 22000,
-        description: '',
-        category: 'sup'
-    },
-    {
-        _id: '19',
-        name: 'Phỏ bò',
-        image: food_19,
-        price: 52000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '20',
-        name: 'Bún bò',
-        image: food_20,
-        price: 43000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '21',
-        name: 'Bún chả',
-        image: food_21,
-        price: 43000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '22',
-        name: 'Mì quảng',
-        image: food_22,
-        price: 55000,
-        description: '',
-        category: 'noodle'
-    },
-    {
-        _id: '23',
-        name: 'combo BBQ nướng',
-        image: food_23,
-        price: 1200000,
-        description: '',
-        category: 'grilled'
-    },
-    {
-        _id: '24',
-        name: 'Thịt heo kho tàu',
-        image: food_24,
-        price: 120000,
-        description: '',
-        category: 'stew'
-    },
-    {
-        _id: '25',
-        name: 'Thịt xiêng nướng',
-        image: food_25,
-        price: 18000,
-        description: '',
-        category: 'grilled'
-    },
-    {
-        _id: '26',
-        name: 'Cánh gà quay bắc kinh',
-        image: food_26,
-        price: 120000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '27',
-        name: 'Gà quay bắc kinh nguyên con',
-        image: food_27,
-        price: 1200000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '28',
-        name: 'Đùi gà chiên nước mắm',
-        image: food_28,
-        price: 120000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '29',
-        name: 'Cánh gà chiên giòn',
-        image: food_29,
-        price: 120000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '30',
-        name: 'Tôm chiên xù',
-        image: food_30,
-        price: 120000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '31',
-        name: 'Tom yum',
-        image: food_31,
-        price: 220000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '32',
-        name: 'Tôm chiên xả ớt',
-        image: food_32,
-        price: 120000,
-        description: '',
-        category: 'fried'
-    },
-    {
-        _id: '33',
-        name: 'Tôm nhòi',
-        image: food_33,
-        price: 120000,
-        description: '',
-        category: 'fried'
-    },
-]

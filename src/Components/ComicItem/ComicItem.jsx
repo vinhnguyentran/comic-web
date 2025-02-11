@@ -2,10 +2,11 @@ import React, { useContext } from 'react'
 import './ComicItem.css'
 import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext'
+import { Link } from 'react-router-dom';
 const ComicItem = ({ comic }) => {
-  const { cartItem, addToCart, removeCartItem, viewer, token } = useContext(StoreContext)
+  const { cartItem, addToCart, removeCartItem, viewer, token, setChapChange, chap } = useContext(StoreContext)
   return (
-    <div className='comic-item'>
+    <Link to={'/readview?='+comic.name} onClick={()=> setChapChange(comic._id)} className='comic-item'>
       <div className="comic-item-img-container">
         {/* <img className='comic-item-image' src={url+ '/images/'+ image} alt={name} /> */}
         <img className='comic-item-image' src={comic.image} alt={comic.name} />
@@ -18,7 +19,7 @@ const ComicItem = ({ comic }) => {
         <p>{comic.chap} chapter</p>
 
       </div>
-    </div>
+    </Link>
   )
 }
 
